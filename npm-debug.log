@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/nlmartian/.nvm/versions/io.js/v2.1.0/bin/iojs',
+1 verbose cli   '/Users/nlmartian/.nvm/versions/io.js/v2.1.0/bin/npm',
+1 verbose cli   'explore',
+1 verbose cli   'bluebird' ]
+2 info using npm@2.10.1
+3 info using node@v2.1.0
+4 verbose stack Error: It doesn't look like bluebird is installed.
+4 verbose stack     at /Users/nlmartian/.nvm/versions/io.js/v2.1.0/lib/node_modules/npm/lib/explore.js:23:43
+4 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:78:15)
+5 verbose cwd /Users/nlmartian/Projects/node/engine.io-example
+6 error Darwin 14.3.0
+7 error argv "/Users/nlmartian/.nvm/versions/io.js/v2.1.0/bin/iojs" "/Users/nlmartian/.nvm/versions/io.js/v2.1.0/bin/npm" "explore" "bluebird"
+8 error node v2.1.0
+9 error npm  v2.10.1
+10 error It doesn't look like bluebird is installed.
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]

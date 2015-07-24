@@ -1,43 +1,5 @@
-/*server*/
-/*
-var engine = require('engine.io')
-var server = engine.listen(8090)
-
-var id = 0;
-
-server.on('connection', function(socket) {
-  console.log(socket.id + ' connect')
-
-  var intervalId = setInterval(function() {
-    var msg = 'Hello world ' + (id++) + ' from ' + socket.id
-    socket.send(msg)
-    console.log("send msg: --> " + msg)
-  }, 2000)
-
-  socket.on('message', function(data) {
-    console.log(data)
-  })
-
-  socket.on('close', function() {
-    console.log(socket.id + ' close')
-    clearInterval(intervalId)
-  })
-
-  socket.on('error', function() {
-    console.log(socket.id + " error")
-  })
-
-  socket.on('packet', function(type, data) {
-    if (type == "ping") {
-      console.log('recv ping')
-    }
-  })
-
-})
-console.log('server listening on port 8090')
-*/
-
 /**client**/
+
 var appKey = '41Raz6ZK'
 var deviceToken = '1234'
 var request = require('request')

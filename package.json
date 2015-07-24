@@ -4,6 +4,7 @@
   "dependencies": {
     "engine.io": "1.2.2",
     "engine.io-client": "1.5.1",
-    "request": "2.60.0"
+    "request": "2.60.0",
+    "coffee-script": "^1.9.3"
   }
 }
