@@ -1,0 +1,9 @@
+{
+  "name": "engine.io-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "engine.io": "1.2.2",
+    "engine.io-client": "1.5.1",
+    "request": "2.60.0"
+  }
+}
